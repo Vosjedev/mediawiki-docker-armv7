@@ -31,6 +31,7 @@ RUN set -eux; \
 		mbstring \
 		mysqli \
 		opcache \
+		bcmath \
 	; \
 	\
 	pecl install APCu-5.1.24; \
